@@ -2,8 +2,12 @@ body {
   font-family: Verdana, sans-serif; }
 
 a {
-  color: #0063C3;
+  color: #000000;
   text-decoration: none; }
+
+a:hover {
+  color: #A2A2A2; }
+}
 
 hr {
   margin-top: 10px;
@@ -246,7 +250,7 @@ aside {
     clear: both; }
 
 .hit {
-  width: 24%;
+  width: 100%;
   float: left;
   padding: 10px 20px 20px;
   margin-bottom: 10px;
@@ -303,7 +307,7 @@ aside {
   .hit em {
     color: #000000;
     font-style: normal;
-    background-color: #FFBE61; }
+    background-color: #D7D7D7; }
 
 #pagination {
   margin-top: 10px;

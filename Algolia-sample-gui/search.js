@@ -64,13 +64,6 @@ search.addWidget(
     templates: {
       empty: noResultsTemplate,
       item: hitTemplate
-    },
-    transformData: function(hit) {
-      hit.stars = [];
-      for (var i = 1; i <= 5; ++i) {
-        hit.stars.push(i <= hit.rating);
-      }
-      return hit;
     }
   })
 );
