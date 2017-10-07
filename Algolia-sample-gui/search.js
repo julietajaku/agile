@@ -35,10 +35,10 @@ var hitTemplate =
       //   '<div class="product-picture"><img src="{{image}}" /></div>' +
       // '</div>' +
       '<div class="product-desc-wrapper">' +
-        '<div class="product-name">{{{_highlightResult.Question.value}}}</div>' +
-        '<div class="product-type">{{{_highlightResult.Answer.value}}}</div>' +
-        // '<div class="product-price">${{price}}</div>' +
-        // '<div class="product-rating">{{#stars}}<span class="ais-star-rating--star{{^.}}__empty{{/.}}"></span>{{/stars}}</div>' +
+        '<div class="question"><a href={{ULR.value}}> {{{_highlightResult.Question.value}}} </a></div>' + //URL not working
+        '<div class="answer">{{{_highlightResult.Answer.value}}}</div>' +
+        '<div class="author"> author {{Author}}  </div>' +
+         '<div class="date"> updated {{Date}}  </div>' +
       '</div>' +
   '</article>';
 
