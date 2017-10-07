@@ -10,7 +10,7 @@ var search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#q',
-    placeholder: 'Search a product'
+    placeholder: 'Ask a question'
   })
 );
 
