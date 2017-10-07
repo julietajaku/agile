@@ -281,8 +281,8 @@ aside {
         .hit .product-picture img {
           height: inherit; } }
   .hit .product-desc-wrapper {
-    height: 100px;
-    width: 100%;
+/*    height: 100px;
+*/    width: 100%;
     overflow: hidden; }
   .hit .question {
     font-weight: bold;
